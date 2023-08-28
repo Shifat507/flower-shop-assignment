@@ -2,7 +2,8 @@
     font-family: 'Lato', sans-serif;
     margin: 0px;
 }
-p{
+
+p {
     color: rgba(39, 39, 39, 0.60);
 }
 
@@ -63,8 +64,9 @@ p{
     padding: 20px 20px 0px 20px;
 }
 
-.flower {
+.flower p{
     text-align: center;
+    color: #272727;
 }
 
 /* Service */
@@ -76,14 +78,16 @@ p{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
+
 /* Other services */
-.other-facilities{
+.other-facilities {
     margin: 150px 120px;
     padding: 50px 120px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
-.other-services{
+
+.other-services {
     display: flex;
     justify-content: space-around;
 }
@@ -102,44 +106,50 @@ p{
     padding: 50px 120px;
     gap: 100px;
 }
-#discount{
+
+#discount {
     color: #E55473;
 }
 
 /* Social-site */
-.social-site{
+.social-site {
     margin: 150px 120px;
 }
-.sample-flower{
+
+.sample-flower {
     display: flex;
     justify-content: space-around;
     gap: 8px;
 }
-.social-info{
+
+.social-info {
     text-align: center;
 }
 
 /* Subscribe */
-.subscribe{
+.subscribe {
     margin: 150px 120px;
     background-image: url('../Flower Asset/Rectangle\ 9.png');
     padding: 122px 287px;
     text-align: center;
 }
-.email-area{
+
+.email-area {
     width: 400px;
-height: 30px;
+    height: 30px;
 }
 
 /* Footer Section */
-.footer{
+.footer {
     background-color: #111010;
     text-align: center;
     padding: 128px 250px;
 }
-.footer-text{
+
+.footer-text {
     color: white;
 }
-.footer-alert{
+
+.footer-alert {
     color: rgba(255, 255, 255, 0.40);
 }
