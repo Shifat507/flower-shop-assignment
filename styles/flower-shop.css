@@ -1,0 +1,18 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+/* Header Section  */
+.header{
+    display: flex;
+    align-items: center;
+    gap: 97px;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 45px 150px;
+}
+.btn-primary{
+    padding: 10px 23px;
+    background-color: #E55473;
+    border: 0px;
+    border-radius: 3px;
+}
