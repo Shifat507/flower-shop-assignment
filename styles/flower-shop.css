@@ -76,6 +76,17 @@ p{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
+/* Other services */
+.other-facilities{
+    margin: 150px 120px;
+    padding: 50px 120px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.other-services{
+    display: flex;
+    justify-content: space-around;
+}
 
 .details {
     text-align: center;
