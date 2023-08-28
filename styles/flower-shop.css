@@ -1,18 +1,121 @@
-*{
+* {
     font-family: 'Lato', sans-serif;
     margin: 0px;
 }
+p{
+    color: rgba(39, 39, 39, 0.60);
+}
+
 /* Header Section  */
-.header{
+.header {
     display: flex;
     align-items: center;
     gap: 97px;
     background: rgba(229, 84, 115, 0.10);
-    padding: 45px 150px;
+    padding: 0px 120px 0px 120px;
 }
-.btn-primary{
+
+.banner-img {
+    padding-top: 150px;
+}
+
+.btn-primary {
     padding: 10px 23px;
     background-color: #E55473;
     border: 0px;
     border-radius: 3px;
+    color: white;
+}
+
+/* Featured Section  */
+
+.features {
+    margin-top: 150px;
+    padding: 50px 120px;
+}
+
+.features-text {
+    text-align: center;
+}
+
+.featured-flowers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.display-flower-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 20px 20px 0px 20px;
+}
+
+.display-flower-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 20px 20px 0px 20px;
+}
+
+.display-flower-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 20px 20px 0px 20px;
+}
+
+.flower {
+    text-align: center;
+}
+
+/* Service */
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 120px;
+    padding: 50px 120px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.details {
+    text-align: center;
+}
+
+/* sing-up */
+.sing-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 50px 120px;
+    gap: 100px;
+}
+#discount{
+    color: #E55473;
+}
+
+/* Social-site */
+.social-site{
+    margin: 150px 120px;
+}
+.sample-flower{
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+}
+.social-info{
+    text-align: center;
+}
+
+/* Subscribe */
+.subscribe{
+    margin: 150px 120px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    padding: 122px 287px;
+    text-align: center;
+}
+.email-area{
+    width: 400px;
+height: 30px;
 }
