@@ -119,3 +119,16 @@ p{
     width: 400px;
 height: 30px;
 }
+
+/* Footer Section */
+.footer{
+    background-color: #111010;
+    text-align: center;
+    padding: 128px 250px;
+}
+.footer-text{
+    color: white;
+}
+.footer-alert{
+    color: rgba(255, 255, 255, 0.40);
+}
